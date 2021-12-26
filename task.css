@@ -1,0 +1,119 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+    .h{
+        position: absolute;
+        border: 2px solid;
+        padding: 30px;
+        height: 300px; 
+        width: 500px;
+        resize: horizontal;
+        overflow: auto;
+        float: right;
+        display: block;
+        margin-top: 7px;
+        margin-left: 500px;
+        background-color: cadetblue;
+        color: aliceblue;
+        font-size: bold;
+      }
+    
+  
+  @media only screen   
+  and (min-device-width : 768px)   
+  and (max-device-width : 1024px)
+  
+  
+{
+    .h{
+        position: absolute;
+        border: 2px solid;
+        padding: 30px;
+        height: 300px; 
+        width: 500px;
+        resize: horizontal;
+        overflow: auto;
+        float: right;
+        display: block;
+        margin-top: 7px;
+        margin-left: 500px;
+        background-color: cadetblue;
+        color: aliceblue;
+        font-size: bold;
+      }
+}
+.div1{
+    
+    border: 2px solid;
+  padding: 30px;
+  height: 300px; 
+  width: 170px;
+  resize: vertical;
+  overflow: auto;
+  margin-left: 80px;
+  margin-top: 20px;
+  background-color: cadetblue;
+  color: aliceblue;
+  font-size: bold;
+
+}
+
+@media only screen   
+and (min-device-width : 768px)   
+and (max-device-width : 1024px){
+    .div1{
+    
+        border: 2px solid;
+      padding: 30px;
+      height: 300px; 
+      width: 170px;
+      resize: vertical;
+      overflow: auto;
+      margin-left: 80px;
+      margin-top: 20px;
+      background-color: cadetblue;
+      color: aliceblue;
+      font-size: bold;
+    
+    }
+   
+}
+    
+
+.div2{
+    margin-left: 80px;
+  border: 2px solid;
+  padding: 30px;
+  height: 90px; 
+  width: 1120px;
+  resize: both;
+  overflow: auto;
+  margin-top:80px;
+  background-color: cadetblue;
+  color: aliceblue;
+  font-size: bold;
+
+}
+
+@media only screen   
+and (min-device-width : 768px)   
+and (max-device-width : 1024px)  {
+    .div2{
+        margin-left: 80px;
+      border: 2px solid;
+      padding: 30px;
+      height: 90px; 
+      width: 1120px;
+      resize: both;
+      overflow: auto;
+      margin-top:80px;
+      background-color: cadetblue;
+      color: aliceblue;
+      font-size: bold;
+    
+    }
+
+}
